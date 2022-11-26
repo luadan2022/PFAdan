@@ -47,6 +47,20 @@
   filter: invert(100%);
 }
 
+.btn-primary {
+  background-color: #f8e88e;
+  border-color: black;
+  color: black;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.form-group {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .navbar-dark .navbar-toggler {
   border: dashed black 2px;
 }
@@ -71,7 +85,7 @@
 h1 {
   font-family: "Amatic SC", cursive;
   font-size: 80px;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px white;
 }
 
 h2 {
@@ -110,6 +124,15 @@ h2 {
   margin-bottom: 20px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+}
+
+.vermas {
+  font-size: 40px;
+  font-family: "Amatic SC", cursive;
+  color: black;
+}
+.vermas:hover {
+  color: white;
 }
 
 .animacion, .vermas {
@@ -153,15 +176,6 @@ h3 {
 #t1, #t2, #t3, #t4 {
   width: 65%;
   border-radius: 60%;
-}
-
-.vermas {
-  font-size: 40px;
-  font-family: "Amatic SC", cursive;
-  color: black;
-}
-.vermas:hover {
-  color: white;
 }
 
 footer {
